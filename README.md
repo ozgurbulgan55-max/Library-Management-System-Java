@@ -73,6 +73,13 @@ Kitap iade
 
 Ödünç alma – iade işlemleri test edilir
 
+## 🖥️ Örnek Çalışma Ekran Çıktısı
+
+<p align="center">
+  <img src="EkranCıktısı.png" alt="Çalışma Ekranı" width="600">
+</p>
+
+
 🔄 Akış Diyagramı
 
 Aşağıdaki akış diyagramı, sistemin genel çalışma mantığını göstermektedir:

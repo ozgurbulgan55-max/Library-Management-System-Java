@@ -1,3 +1,35 @@
+✨ Yeni Projem: Java ile Kütüphane Yönetim Sistemi
+
+Bir süredir üzerinde çalıştığım Java tabanlı Kütüphane Yönetim Sistemi projesini tamamladım.
+Bu proje; nesne yönelimli programlama, sınıf ilişkileri, koleksiyon yapıları ve tarih yönetimi gibi temel yazılım becerilerimi geliştirmek amacıyla oluşturuldu.
+
+⚙️ Proje Özellikleri
+
+Kitap ekleme, listeleme
+
+Üye ekleme, listeleme
+
+Kitap ödünç alma & iade işlemleri
+
+Otomatik teslim tarihi hesaplama
+
+Nesne yönelimli güçlü sınıf modeli (Book, Member, Loan, Library)
+
+👨‍💻 Kullanılan Teknolojiler
+
+Java
+
+OOP Prensipleri
+
+ArrayList yapısı
+
+LocalDate API
+
+📁 GitHub Repo:
+🔗 [https://github.com/ozgurbulgan55-max/Library-Management-System-Java]
+
+Görüş ve önerilerinizi duymaktan memnun olurum. 🚀
+
 # 📚 Kütüphane Yönetim Sistemi – Java
 
 Modern yazılım geliştirme prensiplerine uygun olarak hazırlanmış **Java tabanlı Kütüphane Yönetim Sistemi** projesidir.  
@@ -40,11 +72,3 @@ Kitap eklendi: Kürk Mantolu Madonna
 --- Kitap Ödünç Alma İşlemi ---
 Kitap ödünç verildi → Suç ve Ceza, Alan üye → Muhammed
 Teslim Tarihi: 2025-12-20
-src/
- ├── Classes/
- │   ├── book.java
- │   ├── Member.java
- │   ├── Loan.java
- │   └── Library.java
- └── Main/
-     └── main.java

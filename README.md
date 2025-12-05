@@ -78,3 +78,9 @@ Kitap iade
 Aşağıdaki akış diyagramı, sistemin genel çalışma mantığını göstermektedir:
 
 <p align="center"> <img src="flawchart.png" alt="Akış Şeması" width="600"> </p>
+
+## 📘 UML Class Diagram
+
+<p align="center">
+  <img src="umlClasDiagram.png" alt="UML Class Diagram" width="600">
+</p>

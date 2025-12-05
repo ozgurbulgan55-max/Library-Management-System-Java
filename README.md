@@ -1,74 +1,80 @@
-✨ Yeni Projem: Java ile Kütüphane Yönetim Sistemi
+📚 Kütüphane Yönetim Sistemi – Java
 
-Bir süredir üzerinde çalıştığım Java tabanlı Kütüphane Yönetim Sistemi projesini tamamladım.
-Bu proje; nesne yönelimli programlama, sınıf ilişkileri, koleksiyon yapıları ve tarih yönetimi gibi temel yazılım becerilerimi geliştirmek amacıyla oluşturuldu.
+Bu proje, Java kullanılarak geliştirilmiş basit ve işlevsel bir Kütüphane Yönetim Sistemidir.
+Sistem, kitapların kaydedilmesini, üyelerin eklenmesini ve kitap ödünç alma / iade işlemlerinin yapılmasını sağlar.
 
-⚙️ Proje Özellikleri
+Java’da OOP, Class Mantığı, Nesne Tabanlı Programlama ve ArrayList kullanımı öğrenmek isteyenler için ideal bir uygulamadır.
 
-Kitap ekleme, listeleme
+🧩 Kullanılan Teknolojiler
 
-Üye ekleme, listeleme
+Java SE 21
 
-Kitap ödünç alma & iade işlemleri
+OOP (Object Oriented Programming)
 
-Otomatik teslim tarihi hesaplama
+Encapsulation
 
-Nesne yönelimli güçlü sınıf modeli (Book, Member, Loan, Library)
-
-👨‍💻 Kullanılan Teknolojiler
-
-Java
-
-OOP Prensipleri
-
-ArrayList yapısı
+ArrayList
 
 LocalDate API
 
-📁 GitHub Repo:
-🔗 [https://github.com/ozgurbulgan55-max/Library-Management-System-Java]
+Eclipse IDE
 
-Görüş ve önerilerinizi duymaktan memnun olurum. 🚀
+🏗️ Sınıf Yapısı
 
-# 📚 Kütüphane Yönetim Sistemi – Java
+Proje aşağıdaki sınıflardan oluşmaktadır:
 
-Modern yazılım geliştirme prensiplerine uygun olarak hazırlanmış **Java tabanlı Kütüphane Yönetim Sistemi** projesidir.  
-Proje; kitap, üye ve ödünç alma işlemlerini yöneten OOP yapıları içermektedir.
+📕 book.java
 
----
+Kitap adı
 
-## ✨ Özellikler
+Yazar adı
 
-- 📘 Kitap ekleme, silme, listeleme  
-- 🧑‍🤝‍🧑 Üye ekleme, listeleme  
-- 🔄 Kitap ödünç alma ve iade sistemi  
-- ⏳ LocalDate ile otomatik teslim tarihi hesaplama  
-- 🧱 Nesne yönelimli güçlü sınıf yapısı (Book, Member, Loan, Library)
+Fiyat
 
----
+Sayfa sayısı
 
-## 🛠️ Kullanılan Teknolojiler
+Ödünç durumu (borrowed)
 
-- **Java SE**
-- **OOP (Encapsulation, Class Design)**
-- **ArrayList Koleksiyon Yapıları**
-- **java.time.LocalDate API**
+👤 Member.java
 
----
+Üye adı
 
-## 🧩 Sınıf Diyagramı (Basitleştirilmiş)
+Üye soyadı
 
+Üye numarası
 
----
+📄 Loan.java
 
-## 🚀 Örnek Çalışma Çıktısı
+Ödünç alınan kitap
 
-```text
-Kitap eklendi: Suç ve Ceza
-Kitap eklendi: Kürk Mantolu Madonna
-Üye eklendi: Muhammed
-Üye eklendi: Özgür
+Kitabı alan üye
 
---- Kitap Ödünç Alma İşlemi ---
-Kitap ödünç verildi → Suç ve Ceza, Alan üye → Muhammed
-Teslim Tarihi: 2025-12-20
+Kitap alınma tarihi
+
+Teslim tarihi (otomatik +15 gün hesaplanır)
+
+🏛️ Library.java
+
+Kitap ekleme
+
+Kitap listeleme
+
+Üye ekleme
+
+Üye listeleme
+
+Kitap ödünç verme
+
+Kitap iade
+
+▶️ main.java
+
+Örnek kitap ve üyeler oluşturulur
+
+Ödünç alma – iade işlemleri test edilir
+
+🔄 Akış Diyagramı
+
+Aşağıdaki akış diyagramı, sistemin genel çalışma mantığını göstermektedir:
+
+<p align="center"> <img src="flawchart.png" alt="Akış Şeması" width="600"> </p>

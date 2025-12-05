@@ -1,70 +1,50 @@
-📚 Kütüphane Yönetim Sistemi – Java
+# 📚 Kütüphane Yönetim Sistemi – Java
 
-Java ile nesne yönelimli programlama prensipleri kullanılarak geliştirilmiş temel bir Kütüphane Yönetim Sistemi uygulamasıdır.
-Bu proje; kitap ekleme, üye ekleme, kitap ödünç verme ve kitap iade etme işlemlerini simüle eden küçük ölçekli bir yönetim sistemi sunar.
+Modern yazılım geliştirme prensiplerine uygun olarak hazırlanmış **Java tabanlı Kütüphane Yönetim Sistemi** projesidir.  
+Proje; kitap, üye ve ödünç alma işlemlerini yöneten OOP yapıları içermektedir.
 
-🚀 Projenin Amacı
+---
 
-Bu proje, Java’da:
+## ✨ Özellikler
 
-Sınıf yapıları (Class)
+- 📘 Kitap ekleme, silme, listeleme  
+- 🧑‍🤝‍🧑 Üye ekleme, listeleme  
+- 🔄 Kitap ödünç alma ve iade sistemi  
+- ⏳ LocalDate ile otomatik teslim tarihi hesaplama  
+- 🧱 Nesne yönelimli güçlü sınıf yapısı (Book, Member, Loan, Library)
 
-Nesne yönelimli programlama (OOP)
+---
 
-Encapsulation
+## 🛠️ Kullanılan Teknolojiler
 
-ArrayList kullanımı
+- **Java SE**
+- **OOP (Encapsulation, Class Design)**
+- **ArrayList Koleksiyon Yapıları**
+- **java.time.LocalDate API**
 
-Sınıflar arası ilişki kurma (Composition)
+---
 
-LocalDate ile tarih işlemleri
-
-gibi temel programlama kavramlarını uygulamalı olarak öğrenmek ve göstermek amacıyla geliştirilmiştir.
-
-🧩 Sınıf Diyagramı
-
-Proje aşağıdaki temel sınıflardan oluşmaktadır:
-
-Sınıf	Açıklama
-book	Kitap bilgilerini tutar (ad, yazar, fiyat, sayfa sayısı, ödünç durumu)
-Member	Üye bilgilerini tutar (ad, soyad, üye numarası)
-Loan	Ödünç alınan kitapların kayıtlarını tutar (ödünç tarihi, iade tarihi)
-Library	Kütüphane yönetim fonksiyonlarını içerir (kitap/üye ekleme, ödünç verme, iade etme)
-main	Programın çalıştırıldığı sınıf
-🧮 Kullanılan Teknolojiler
-
-Java 21
-
-Object-Oriented Programming (OOP)
-
-ArrayList
-
-LocalDate
-
-Eclipse IDE
+## 🧩 Sınıf Diyagramı (Basitleştirilmiş)
 
 
-🧠 Kazanımlar
+---
 
-Bu projeyi tamamlayarak:
+## 🚀 Örnek Çalışma Çıktısı
 
-Java’da sınıf tasarlama,
+```text
+Kitap eklendi: Suç ve Ceza
+Kitap eklendi: Kürk Mantolu Madonna
+Üye eklendi: Muhammed
+Üye eklendi: Özgür
 
-Sınıflar arası ilişkileri modelleme,
-
-ArrayList yönetimi,
-
-Tarih işlemleri (LocalDate)
-
-Temel kütüphane yönetim mantığı
-
-konularında beceri kazanırsınız.
-
-📄 Lisans
-
-MIT Lisansı ile paylaşılmıştır.
-
-👤 Geliştirici
-
-Özgür Bulgan
-Yazılım Mühendisliği – Harran Üniversitesi
+--- Kitap Ödünç Alma İşlemi ---
+Kitap ödünç verildi → Suç ve Ceza, Alan üye → Muhammed
+Teslim Tarihi: 2025-12-20
+src/
+ ├── Classes/
+ │   ├── book.java
+ │   ├── Member.java
+ │   ├── Loan.java
+ │   └── Library.java
+ └── Main/
+     └── main.java

@@ -1,5 +1,3 @@
-java  oop  library-system  beginner-project  object-oriented-programming
-
 📚 Kütüphane Yönetim Sistemi – Java
 
 Bu proje, Java kullanılarak geliştirilmiş basit ve işlevsel bir Kütüphane Yönetim Sistemidir.

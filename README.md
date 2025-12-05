@@ -43,68 +43,6 @@ LocalDate
 
 Eclipse IDE
 
-📂 Proje Yapısı
-src/
- ├── Classes/
- │    ├── book.java
- │    ├── Member.java
- │    ├── Loan.java
- │    ├── Library.java
- │
- └── Main/
-      └── main.java
-
-🔍 Temel Özellikler
-✔ Kitap ekleme
-✔ Üye ekleme
-✔ Kitap ödünç verme
-
-— Ödünç alma tarihi otomatik belirlenir
-— İade tarihi otomatik +15 gün olarak hesaplanır
-
-✔ Kitap iade etme
-✔ Kitap & Üye listesini görüntüleme
-🖥️ Konsol Çalışma Örneği
-Kitap eklendi: Suç ve Ceza
-Kitap eklendi: Kürk Mantolu Madonna
-Üye eklendi: Muhammed
-Üye eklendi: Özgür
-
---- Kitap Ödünç Alma İşlemi ---
-Kitap ödünç verildi → Suç ve Ceza, Alan üye → Muhammed
-
---- Kitap İade İşlemi ---
-Kitap iade edildi: Suç ve Ceza
-
-📌 Örnek Kod (main.java)
-package Main;
-
-import Classes.*;
-
-public class main {
-    public static void main(String[] args) {
-
-        Library library = new Library();
-
-        book b1 = new book("Suç ve Ceza", "Dostoyevski", 89.90, 670);
-        book b2 = new book("Kürk Mantolu Madonna", "Sabahattin Ali", 55.50, 160);
-
-        library.addBook(b1);
-        library.addBook(b2);
-
-        Member m1 = new Member("Muhammed", "Çalış", 1);
-        Member m2 = new Member("Özgür", "Bulgan", 2);
-
-        library.addMember(m1);
-        library.addMember(m2);
-
-        System.out.println("\n--- Kitap Ödünç Alma İşlemi ---");
-        library.borrowBook(m1, b1);
-
-        System.out.println("\n--- Kitap İade İşlemi ---");
-        library.returnBook(b1);
-    }
-}
 
 🧠 Kazanımlar
 
